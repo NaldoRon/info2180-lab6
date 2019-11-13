@@ -1,0 +1,19 @@
+.container_Main{
+  height: 1000px;
+}
+.container_Top{
+  background-color: blue;
+  text-align: center;
+  padding-top: 20px;
+  font-style: Georgia;
+  font-size: 30px;
+  height: 200px;
+}
+
+.container_Search{
+  height: 100px;
+}
+
+.container_Result{
+  height: 300px;
+}

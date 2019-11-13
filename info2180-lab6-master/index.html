@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset = "utf-8">
-     <script src = "app.js"></script>
-     <script src ="jquery.js"></script>
-     <title>Avengers Hero Search</title>
-    </head>
-    <body>
-      <input type="text" name="search">
-      <button onclick="searchBox()">Search</button>
-    </body>
+ <head>
+  <meta charset = "utf-8">
+  <link rel= "stylesheet" href="style.css">
+  <script src = "app.js"></script>
+  <script src ="jquery.js"></script>
+  <title>Avengers Hero Search</title>
+  </head>
+    <div class = "container_Main">
+      <div class = "container_Top">
+       <h1>Avengers Hero Search</h1>
+      </div>
+      <div class = "container_Base">
+        <div class = "container_Search">
+         <body>
+          <ol>
+           <li><a href= "superheroes.php"></a><li>
+         </ol>
+           <input type="text">
+           <button id="getJson" class = "btn">Search</button>
+         </div>
+         <div class ="container_Result">
+           <h2></h2>
+           <div id = "results"></div>
+         </div>
+      </body>
+      </div>
+    </div>
 </html>
